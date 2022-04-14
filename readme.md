@@ -1,7 +1,4 @@
-<span style="font-size: 180%"><B>
-Note: Operation has not been tested yet
-</B></span>
-
+## **Note: Operation has not been tested yet**
 
 ## Citation
 Mimura, K., Minabe, S., Nakamura, K., Yasukawa, K., Ohta, J., Kato, Y. Automated detection of microfossil fish teeth from slide images using combined deep-learning models. *submitted to Computers & Geosciences*
