@@ -25,9 +25,6 @@ Mimura, K., Minabe, S., Nakamura, K., Yasukawa, K., Ohta, J., Kato, Y. Automated
 **Object detection** is useful for observing and counting various kinds of signals from a broad area by taking a number of pictures.
 However, **objects located at image boundaries** are not captured in full shape, which can hamper observation. 
 This problem can be solved by setting an overlap in images, but this in turn raise another problem of **duplicated detections**.
-
-![image2](/images_for_github/overlap.png)
-
 <br>
 
 This program aims to detect objects in its complete form without duplications by converting their x and y coordinates of the object in each image (**relative coordinates**) into the coordinates in the entire imaging area (**absolute coordinates**).
