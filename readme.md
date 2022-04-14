@@ -1,6 +1,6 @@
-<span style="font-size: 150%; color: red;">
+<span style="font-size: 180%"><B>
 Note: Operation has not been tested yet
-</span>
+</B></span>
 
 
 ## Citation
