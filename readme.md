@@ -1,3 +1,7 @@
+<span style="font-size: 150%"><font color="red">
+Note: Operation has not been tested yet
+</span></font>
+
 ## Citation
 Mimura, K., Minabe, S., Nakamura, K., Yasukawa, K., Ohta, J., Kato, Y. Automated detection of microfossil fish teeth from slide images using combined deep-learning models. *submitted to Computers & Geosciences*
 
@@ -8,7 +12,7 @@ Mimura, K., Minabe, S., Nakamura, K., Yasukawa, K., Ohta, J., Kato, Y. Automated
 <br>
 
 ## What is new?
-<details><summary> <span style="font-size: 130%">
+<details><summary><span style="font-size: 130%">
 日本語
 </span></summary><div>
 
@@ -62,7 +66,7 @@ Training, validation and practical-test (see paper for detail) datasets are temp
 ## for second-stage classification
 To reduce false positives, we re-classify the detected regions by image classification model EfficientNet-V2. We provide sample codes that are customized for output format of ai_ichthyolith at [eNetV2_for_ai_ichthyolith](https://github.com/KazuhideMimura/eNetV2_for_ai_ichthyolith).
 
-# References
+# Reference
 He, K., Gkioxari, G., Dollár, P., & Girshick, R. (2017). Mask r-cnn. *In* Proceedings of the IEEE international conference on computer vision (pp. 2961-2969). [[GitHub](https://github.com/matterport/Mask_RCNN)] [[paper](https://openaccess.thecvf.com/content_iccv_2017/html/He_Mask_R-CNN_ICCV_2017_paper.html)]
 
 # notes
@@ -70,8 +74,8 @@ He, K., Gkioxari, G., Dollár, P., & Girshick, R. (2017). Mask r-cnn. *In* Proce
 2022/4/14: released
 
 ## Todo
-1. prepare eNet_for_ai_ichthyolith
-3. submit paper to *Computers & Geosciences*
-4. share preprint on EarthArXiv
-5. add some images for example
-6. translate Japanese comments to English. 
+1. Confirmation of operation
+2. submit paper to *Computers & Geosciences*
+3. share preprint on EarthArXiv
+4. add some images for example
+5. translate Japanese comments to English. 
