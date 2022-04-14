@@ -4,6 +4,8 @@ Mimura, K., Minabe, S., Nakamura, K., Yasukawa, K., Ohta, J., Kato, Y. Automated
 # About
 **ai_ichthyolith** is an application of Mask R-CNN for detecting microfossil (typically microfossil fish teeth called **ichthyolith**) images.
 
+![image1](/images_for_github/detect_example1.jpg)
+
 <br>
 
 ## What is new?
