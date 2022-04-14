@@ -1,0 +1,24 @@
+django
+psycopg2-binary
+django-allauth
+# required in Mask R-CNN below
+numpy
+scipy
+pillow
+cython
+matplotlib
+scikit-image
+# tensorflow>=1.3.0  # 1.15.0
+# keras>=2.0.8  # 2.3.1
+tensorflow==1.15.0
+keras==2.3.1
+opencv-python
+# h5py
+h5py==2.10.0
+imgaug
+IPython[all]
+
+pandas
+openpyxl
+xlrd
+xlwt
