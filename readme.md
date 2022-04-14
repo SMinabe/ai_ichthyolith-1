@@ -19,7 +19,7 @@ This problem can be solved by setting an overlap in images, but this in turn rai
 
 This program aims to detect objects in its complete form without duplications by converting their x and y coordinates of the object in each image (**relative coordinates**) into the coordinates in the entire imaging area (**absolute coordinates**).
 
-![image3](/images_for_github/Non_max_suppression.jpg)
+![image3](/images_for_github/Non_max_suppression.png)
 
 <details><summary> <span style="font-size: 130%">
 日本語
