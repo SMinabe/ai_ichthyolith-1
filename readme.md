@@ -8,6 +8,19 @@ Mimura, K., Minabe, S., Nakamura, K., Yasukawa, K., Ohta, J., Kato, Y. Automated
 <br>
 
 ## What is new?
+<details><summary> <span style="font-size: 130%">
+日本語
+</span></summary><div>
+
+多数の画像を撮影して**物体検出**にかけることにより，広範囲から対象を観察したりカウントしたりすることが可能です．
+しかし，範囲を分割して撮影すると，**画像の境界に存在する粒子**が完全な形状で撮影されないという問題があります．
+この問題は，範囲に重なりを設定して撮影することで解決できますが，今度は１つの物体が**重複**して検出されるという別の問題が生じます
+<br>
+
+本プログラムでは，各画像中での x, y 座標（**相対座標**）を，全体の撮影範囲の中での X, Y 座標（**絶対座標**）に変換することにより，重複を防ぎながら完全な形状で検出することを目的としています．
+
+</div></details><br>
+
 
 **Object detection** is useful for observing and counting various kinds of signals from a broad area by taking a number of pictures.
 However, **objects located at image boundaries** are not captured in full shape, which can hamper observation. 
@@ -20,19 +33,6 @@ This problem can be solved by setting an overlap in images, but this in turn rai
 This program aims to detect objects in its complete form without duplications by converting their x and y coordinates of the object in each image (**relative coordinates**) into the coordinates in the entire imaging area (**absolute coordinates**).
 
 ![image3](/images_for_github/Non_max_suppression.png)
-
-<details><summary> <span style="font-size: 130%">
-日本語
-</span></summary><div>
-
-多数の画像を撮影して**物体検出**にかけることにより，広範囲から対象を観察したりカウントしたりすることが可能です．
-しかし，範囲を分割して撮影すると，**画像の境界に存在する粒子**が完全な形状で撮影されないという問題があります．
-この問題は，範囲に重なりを設定して撮影することで解決できますが，今度は１つの物体が**重複**して検出されるという別の問題が生じます
-<br>
-
-本プログラムでは，各画像中での x, y 座標（**相対座標**）を，全体の撮影範囲の中での X, Y 座標（**絶対座標**）に変換することにより，重複を防ぎながら完全な形状で検出することを目的としています．
-
-</div></details>
 
 <br>
 
