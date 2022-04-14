@@ -67,7 +67,8 @@ He, K., Gkioxari, G., Dollár, P., & Girshick, R. (2017). Mask r-cnn. *In* Proce
 2022/4/14: released
 
 ## Todo
-1. submit paper to *Computers & Geosciences*
-2. share preprint on EarthArXiv
-3. add some images for example
-4. translate Japanese comments to English. 
+1. prepare eNet_for_ai_ichthyolith
+3. submit paper to *Computers & Geosciences*
+4. share preprint on EarthArXiv
+5. add some images for example
+6. translate Japanese comments to English. 
